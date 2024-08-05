@@ -1,0 +1,114 @@
+body{
+    padding: 0;
+    margin:0;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #eef9fe;
+
+;
+    
+}
+  .container{
+    padding: 0;
+    margin: 0;
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+  }
+
+  .container .search{
+    display: flex;
+    width: 80%;
+    margin-top: 50px;
+    
+
+  }
+  .container input :hover{
+    cursor:text;
+    border: none;
+  }
+  .container img{
+    margin-top: 25px;
+    width: 170px;
+    
+  }
+  .search input{
+    
+    flex: 1;
+    border-radius: 9px;
+    border: none;
+    width: 50% ;
+    padding: 8px;
+   
+   
+   
+  }
+  .search button{
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 30px;
+    border: none;
+    background-color: #fff;
+   
+
+  }
+  .container .search-btn:hover{
+    cursor: pointer;
+  }
+  .date-time {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+
+
+}
+.date-time p{
+    margin: 1px;
+}
+.date-time .temp{
+    font-size: 40px;
+
+}
+.date-time .country{
+       font-size: 25px;
+}
+.container .data{
+  display: flex;
+  gap: 50px;
+  
+}
+.humidity p{
+  float: right;
+  font-size: 15px;
+}
+.wind p{
+  float: right;
+  font-size: 15px;
+
+}
+.data p{
+ margin-left: 10px;
+ 
+}
+
+.humidity .hum-img{
+  width: 40px;
+  
+  
+  
+}
+.wind .img2{
+  width: 40px;
+}
+
+
